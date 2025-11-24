@@ -1,5 +1,6 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+.gitignore
 # dependencies
 node_modules/
 
@@ -30,6 +31,7 @@ yarn-error.*
 .DS_Store
 *.pem
 
+.env
 # local env files
 .env*.local
 
